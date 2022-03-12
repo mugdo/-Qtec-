@@ -120,4 +120,9 @@ Hamburg
 Hamburg
 Rabat
 30
+
+output:
+15692
+['Nola', 'Rutigliano', 'Colombo', 'Meckenheim', 'Hamburg', 'Rabat', 'Sueca', 'Rudow', 'Mosu', 'Le Plessis Trevise', 'Kang Dong', 'Nezahualcóyotl', 'Lindenwold', 'Queanbeyan', 'Saint Chamond', 'Cheektowaga', 'Tirupati', 'Snezhinsk', 'Glazov', 'Gaoyou']
+
 """
