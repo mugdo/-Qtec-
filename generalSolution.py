@@ -1,4 +1,6 @@
 number_of_connections = int(input())
+
+
 class City:
     start = ""
     end = ""
@@ -26,11 +28,11 @@ for i in range(number_of_connections):
         max_idx = i
 
 
-for i in range(len(arr)):
-    print(i)
-    print(arr[i].start)
-    print(arr[i].end)
-    print(arr[i].dist)
+# for i in range(len(arr)):
+#     print(i)
+#     print(arr[i].start)
+#     print(arr[i].end)
+#     print(arr[i].dist)
 
 
 visiting_cities = []
@@ -40,14 +42,14 @@ res_dist = 0
 visiting_cities.append(arr[max_idx].end)
 # from starting index to right
 for i in range(max_idx+1, len(arr)):
-    print(i)
+    # print(i)
     res_dist += arr[i].dist
     visiting_cities.append(arr[i].end)
-print("rr")
+
 
 # from left to starting index
 for i in range(0, max_idx):
-    print(i)
+    # print(i)
     res_dist += arr[i].dist
     visiting_cities.append(arr[i].end)
 
